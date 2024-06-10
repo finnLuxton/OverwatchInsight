@@ -30,3 +30,4 @@ C:\Users\Finn\source\repos\OverwatchInsight\OverwatchInsight\obj\Debug\net6.0\re
 C:\Users\Finn\source\repos\OverwatchInsight\OverwatchInsight\obj\Debug\net6.0\OverwatchInsight.pdb
 C:\Users\Finn\source\repos\OverwatchInsight\OverwatchInsight\obj\Debug\net6.0\OverwatchInsight.genruntimeconfig.cache
 C:\Users\Finn\source\repos\OverwatchInsight\OverwatchInsight\obj\Debug\net6.0\ref\OverwatchInsight.dll
+C:\Users\Finn\source\repos\OverwatchInsight\OverwatchInsight\obj\Debug\net6.0\OverwatchInsight.sourcelink.json
