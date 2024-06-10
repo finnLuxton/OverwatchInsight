@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OverwatchInsight")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4db6f0e704f39c70b2746f38c14bcd0777be6061")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+941ba32ad9e1dac1c1b93af3e1726d20e78a544e")]
 [assembly: System.Reflection.AssemblyProductAttribute("OverwatchInsight")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OverwatchInsight")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
