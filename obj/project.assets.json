@@ -442,9 +442,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Finn\\source\\repos\\OverwatchInsight\\OverwatchInsight\\OverwatchInsight.csproj",
-      "projectName": "OverwatchInsight",
-      "projectPath": "C:\\Users\\Finn\\source\\repos\\OverwatchInsight\\OverwatchInsight\\OverwatchInsight.csproj",
+      "projectUniqueName": "C:\\Users\\Finn\\source\\repos\\OverwatchInsight\\OverwatchInsight\\OverwatchInsight.Controller.csproj",
+      "projectName": "OverwatchInsight.Controller",
+      "projectPath": "C:\\Users\\Finn\\source\\repos\\OverwatchInsight\\OverwatchInsight\\OverwatchInsight.Controller.csproj",
       "packagesPath": "C:\\Users\\Finn\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Finn\\source\\repos\\OverwatchInsight\\OverwatchInsight\\obj\\",
       "projectStyle": "PackageReference",
