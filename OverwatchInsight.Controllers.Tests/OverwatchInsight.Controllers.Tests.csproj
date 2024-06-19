@@ -26,7 +26,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\OverwatchInsight.Application\OverwatchInsight.Application.csproj" />
-    <ProjectReference Include="..\OverwatchInsight\OverwatchInsight.Controllers.csproj" />
   </ItemGroup>
 
 </Project>
