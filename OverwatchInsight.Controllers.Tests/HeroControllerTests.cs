@@ -4,7 +4,6 @@ using AutoMapper;
 using Moq;
 using OverwatchInsight.Application.Contracts.Outbound;
 using OverwatchInsight.Controllers;
-using OverwatchInsight.Models;
 using Xunit;
 
 namespace OverwatchInsight.Tests
