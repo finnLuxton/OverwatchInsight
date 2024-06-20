@@ -14,6 +14,7 @@ builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
 
 builder.Services.AddApplicationServices();
 
+// I think I need to work on getting the provider layer DI stuff run here? It might be breaking here.
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

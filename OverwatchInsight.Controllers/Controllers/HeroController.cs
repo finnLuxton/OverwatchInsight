@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using OverwatchInsight.Application.Contracts.Outbound;
+using OverwatchInsight.Application.Contracts.Inbound;
 using OverwatchInsight.Application.Services;
 using OverwatchInsight.Models;
 

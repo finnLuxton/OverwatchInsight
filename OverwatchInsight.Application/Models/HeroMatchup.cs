@@ -9,7 +9,4 @@ namespace OverwatchInsight.Application.Models;
 public record HeroMatchup(
         string HeroName,
         int MatchupValue
-    )
-{
-
-}
+    );

@@ -11,6 +11,12 @@ namespace OverwatchInsight.Application.Services;
 
 public class HeroService : IHeroServiceProvider
 {
+    private readonly IHeroInformationProvider _heroInformationProvider;
+
+    public HeroService(IHeroInformationProvider heroInformationProvider)
+    {
+        _heroInformationProvider = heroInformationProvider ?? throw new ArgumentNullException(nameof(heroInformationProvider));
+    }
 
     public Task<List<HeroMatchup>> GetHeroMatchup(List<String> Heroes)
     {
@@ -18,6 +24,8 @@ public class HeroService : IHeroServiceProvider
         {
             new HeroMatchup("Torbjorn", 0)
         };
+
+        var output = _heroInformationProvider.GetHeroInformation();
 
         return Task.FromResult(heroMatchupList);
     }

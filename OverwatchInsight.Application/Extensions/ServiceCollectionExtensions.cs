@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 using OverwatchInsight.Application.Services;
 using OverwatchInsight.Application.Contracts.Inbound;
-using OverwatchInsight.Application.Contracts.Outbound;
 
 namespace OverwatchInsight.Application.Extensions;
 public static class ServiceCollectionExtensions
