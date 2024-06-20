@@ -3,15 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverwatchInsight.Controller", "OverwatchInsight\OverwatchInsight.Controller.csproj", "{49C664B5-7FDA-466D-92C4-631B58AEC30D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OverwatchInsight.Application", "OverwatchInsight.Application\OverwatchInsight.Application.csproj", "{AD37CBEC-974D-48CF-AB79-DAD8EB141BC2}"
 EndProject
-<<<<<<< Updated upstream
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverwatchInsight.Application", "OverwatchInsight.Application\OverwatchInsight.Application.csproj", "{AD37CBEC-974D-48CF-AB79-DAD8EB141BC2}"
-=======
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OverwatchInsight.Controllers", "OverwatchInsight.Controllers\OverwatchInsight.Controllers.csproj", "{FF77A625-1ECC-4798-9DAB-9259AAE0CCE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OverwatchInsight.Controller", "OverwatchInsight.Controllers\OverwatchInsight.Controller.csproj", "{3F3F6357-1A50-46CA-AEB9-3B1C2420D9F3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OverwatchInsight.Controllers.Tests", "OverwatchInsight.Controllers.Tests\OverwatchInsight.Controllers.Tests.csproj", "{BD0FBE14-CBD5-469E-99FE-D4A9F3ED2AFD}"
->>>>>>> Stashed changes
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OverwatchInsight.Controllers.Tests", "OverwatchInsight.Controllers.Tests\OverwatchInsight.Controllers.Tests.csproj", "{EAF12815-0D78-4B20-8102-8449A909EB2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,25 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{49C664B5-7FDA-466D-92C4-631B58AEC30D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{49C664B5-7FDA-466D-92C4-631B58AEC30D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{49C664B5-7FDA-466D-92C4-631B58AEC30D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{49C664B5-7FDA-466D-92C4-631B58AEC30D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AD37CBEC-974D-48CF-AB79-DAD8EB141BC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AD37CBEC-974D-48CF-AB79-DAD8EB141BC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD37CBEC-974D-48CF-AB79-DAD8EB141BC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD37CBEC-974D-48CF-AB79-DAD8EB141BC2}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< Updated upstream
-=======
-		{FF77A625-1ECC-4798-9DAB-9259AAE0CCE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FF77A625-1ECC-4798-9DAB-9259AAE0CCE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FF77A625-1ECC-4798-9DAB-9259AAE0CCE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FF77A625-1ECC-4798-9DAB-9259AAE0CCE5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BD0FBE14-CBD5-469E-99FE-D4A9F3ED2AFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BD0FBE14-CBD5-469E-99FE-D4A9F3ED2AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BD0FBE14-CBD5-469E-99FE-D4A9F3ED2AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BD0FBE14-CBD5-469E-99FE-D4A9F3ED2AFD}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> Stashed changes
+		{3F3F6357-1A50-46CA-AEB9-3B1C2420D9F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F3F6357-1A50-46CA-AEB9-3B1C2420D9F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F3F6357-1A50-46CA-AEB9-3B1C2420D9F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F3F6357-1A50-46CA-AEB9-3B1C2420D9F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAF12815-0D78-4B20-8102-8449A909EB2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF12815-0D78-4B20-8102-8449A909EB2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAF12815-0D78-4B20-8102-8449A909EB2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF12815-0D78-4B20-8102-8449A909EB2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

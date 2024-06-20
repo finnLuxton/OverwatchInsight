@@ -14,9 +14,10 @@ public class HeroService : IHeroServiceProvider
 
     public Task<List<HeroMatchup>> GetHeroMatchup(List<String> Heroes)
     {
-        var heroMatchupList = new List<HeroMatchup>();
-
-        heroMatchupList.Add(new HeroMatchup("Torbjorn", 0));
+        var heroMatchupList = new List<HeroMatchup>
+        {
+            new HeroMatchup("Torbjorn", 0)
+        };
 
         return Task.FromResult(heroMatchupList);
     }

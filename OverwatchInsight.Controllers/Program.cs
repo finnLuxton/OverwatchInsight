@@ -1,5 +1,5 @@
 using OverwatchInsight.Application.Extensions;
-using OverwatchInsight.Controllers.Profiles;
+using OverwatchInsight.Controller.Profiles;
 
 var builder = WebApplication.CreateBuilder(args);
 

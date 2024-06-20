@@ -1,14 +1,12 @@
 ﻿using AutoMapper;
-using OverwatchInsight.Models; // TODO Cleanup the namespacing issues here
-using OverwatchInsight.Application.Models;
 
-namespace OverwatchInsight.Controllers.Profiles
+namespace OverwatchInsight.Controller.Profiles;
+
+public class MappingProfile : Profile
 {
-    public class MappingProfile : Profile
+    public MappingProfile()
     {
-        public MappingProfile()
-        {
-            CreateMap<Application.Models.HeroMatchup, Models.HeroMatchup>();
-        }
+        CreateMap<Application.Models.HeroMatchup, Models.HeroMatchup>();
     }
 }
+
