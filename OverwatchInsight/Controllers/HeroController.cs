@@ -23,13 +23,12 @@ public class HeroController : ControllerBase
 
     [HttpGet]
     [Route("GetHeroMatchup")]
-    public async Task<string> GetHeroAsync([FromQuery]List<String> EnemyHeroes) // TODO: See if there is a better way for postman to format list of query inputs
+    public async Task<ActionResult<IList<HeroMatchup>>> GetHeroAsync([FromQuery]List<String> EnemyHeroes) // TODO: See if there is a better way for postman to format list of query inputs
     {
         var result = await _heroServiceProvider.GetHeroMatchup(EnemyHeroes);
 
-        return result.HeroName;
-        //Task<ActionResult<IList<HeroMatchup>>>
-        //return Ok(_mapper.Map<HeroMatchup>(result));
+        var mappedResult = _mapper.Map<IList<HeroMatchup>>(result);
+        return Ok(mappedResult);
     }
 
 }

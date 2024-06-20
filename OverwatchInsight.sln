@@ -5,7 +5,13 @@ VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverwatchInsight.Controller", "OverwatchInsight\OverwatchInsight.Controller.csproj", "{49C664B5-7FDA-466D-92C4-631B58AEC30D}"
 EndProject
+<<<<<<< Updated upstream
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverwatchInsight.Application", "OverwatchInsight.Application\OverwatchInsight.Application.csproj", "{AD37CBEC-974D-48CF-AB79-DAD8EB141BC2}"
+=======
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OverwatchInsight.Controllers", "OverwatchInsight.Controllers\OverwatchInsight.Controllers.csproj", "{FF77A625-1ECC-4798-9DAB-9259AAE0CCE5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OverwatchInsight.Controllers.Tests", "OverwatchInsight.Controllers.Tests\OverwatchInsight.Controllers.Tests.csproj", "{BD0FBE14-CBD5-469E-99FE-D4A9F3ED2AFD}"
+>>>>>>> Stashed changes
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,17 @@ Global
 		{AD37CBEC-974D-48CF-AB79-DAD8EB141BC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD37CBEC-974D-48CF-AB79-DAD8EB141BC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD37CBEC-974D-48CF-AB79-DAD8EB141BC2}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< Updated upstream
+=======
+		{FF77A625-1ECC-4798-9DAB-9259AAE0CCE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF77A625-1ECC-4798-9DAB-9259AAE0CCE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF77A625-1ECC-4798-9DAB-9259AAE0CCE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF77A625-1ECC-4798-9DAB-9259AAE0CCE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD0FBE14-CBD5-469E-99FE-D4A9F3ED2AFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD0FBE14-CBD5-469E-99FE-D4A9F3ED2AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD0FBE14-CBD5-469E-99FE-D4A9F3ED2AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD0FBE14-CBD5-469E-99FE-D4A9F3ED2AFD}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> Stashed changes
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace OverwatchInsight.Application.Contracts.Outbound;
 public interface IHeroServiceProvider
 {
-    Task<HeroMatchup> GetHeroMatchup(List<String> Heroes); // TODO: This is not the correct parameter type. Make it different for uncoupling
+    Task<List<HeroMatchup>> GetHeroMatchup(List<String> Heroes); // TODO: This is not the correct parameter type. Make it different for uncoupling
 
 }
 
