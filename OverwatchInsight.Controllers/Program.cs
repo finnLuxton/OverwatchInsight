@@ -1,4 +1,5 @@
 using OverwatchInsight.Application.Extensions;
+using OverwatchInsight.Provider.Extensions;
 using OverwatchInsight.Controller.Profiles;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +14,7 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
 
 builder.Services.AddApplicationServices();
+builder.Services.AddProviderServices();
 
 // I think I need to work on getting the provider layer DI stuff run here? It might be breaking here.
 var app = builder.Build();

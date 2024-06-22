@@ -10,7 +10,7 @@ public class HeroInformationProvider : IHeroInformationProvider
     public async Task<List<HeroInformation>> GetHeroInformation()
     {
         // TODO: Fix this not being a hardcoded file path
-        string jsonString = await File.ReadAllTextAsync("overwatch_heroes.json");
+        string jsonString = File.ReadAllText("overwatch_heroes.json");
 
         List<JsonHeroInformation> jsonHeroInformation = JsonSerializer.Deserialize<List<JsonHeroInformation>>(jsonString);
 

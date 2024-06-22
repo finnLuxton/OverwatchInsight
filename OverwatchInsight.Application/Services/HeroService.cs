@@ -18,16 +18,20 @@ public class HeroService : IHeroServiceProvider
         _heroInformationProvider = heroInformationProvider ?? throw new ArgumentNullException(nameof(heroInformationProvider));
     }
 
-    public Task<List<HeroMatchup>> GetHeroMatchup(List<String> Heroes)
+    public async Task<List<HeroMatchup>> GetHeroMatchup(List<String> Heroes)
     {
         var heroMatchupList = new List<HeroMatchup>
         {
-            new HeroMatchup("Torbjorn", 0)
+            new HeroMatchup("Torbjorn", 0),
+            new HeroMatchup("Ashe", -5)
         };
 
-        var output = _heroInformationProvider.GetHeroInformation();
+        // Outputs list of all heroes, and their matchup scores.
+        var output = await _heroInformationProvider.GetHeroInformation();
 
-        return Task.FromResult(heroMatchupList);
+        // TODO Based off user inputted heroes, return a list of heroes and their aggregated matchup scores
+
+        return heroMatchupList;
     }
 }
 
