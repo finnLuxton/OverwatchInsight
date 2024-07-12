@@ -1,6 +1,7 @@
 using OverwatchInsight.Application.Models;
 using FluentAssertions;
 using OverwatchInsight.Application.Contracts.Outbound;
+using Xunit;
 
 namespace OverwatchInsight.Provider.Tests
 {
@@ -20,6 +21,7 @@ namespace OverwatchInsight.Provider.Tests
             var result = await _heroInformationProvider.GetHeroInformation();
 
             // Assert
+            result.Should().NotBeNull();
             result.Should().BeOfType<List<HeroInformation>>();
         }
     }
