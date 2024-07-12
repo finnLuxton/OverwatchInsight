@@ -20,6 +20,8 @@ public class HeroService : IHeroServiceProvider
         var heroMatchups = new List<HeroMatchup>();
 
         // TODO Extract this out to a function.
+        // TODO: Look into also processing player team heroes?
+        // TODO: Alice supplied reasonings for matchups. Maybe look at incorporating into output?
         foreach (HeroInformation hero in heroInformation)
         {
             int matchupValue = 0;
