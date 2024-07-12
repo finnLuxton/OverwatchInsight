@@ -1,6 +1,6 @@
-namespace OverwatchInsight.Provider.Tests
+namespace OverwatchInsight.Application.Tests
 {
-    public class UnitTest1
+    public class HeroServiceTests
     {
         [Fact]
         public void Test1()
