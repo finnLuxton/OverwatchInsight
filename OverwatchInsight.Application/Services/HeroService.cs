@@ -27,17 +27,18 @@ public class HeroService : IHeroServiceProvider
             int matchupValue = 0;
 
             foreach (var enemyHero in EnemyHeroes)
-            { // TODO: Refine these matchup values. Not much thought put into these yet
-                if (hero.StrongAgainst.Contains(enemyHero))
+            {
+                var lowerHero = enemyHero.ToLower();
+                if (hero.StrongAgainst.Contains(lowerHero))
                     matchupValue += 5;
 
-                if (hero.GoodAgainst.Contains(enemyHero))
+                if (hero.GoodAgainst.Contains(lowerHero))
                     matchupValue += 2;
 
-                if (hero.WeakAgainst.Contains(enemyHero))
+                if (hero.WeakAgainst.Contains(lowerHero))
                     matchupValue += -2;
 
-                if (hero.BadAgainst.Contains(enemyHero))
+                if (hero.BadAgainst.Contains(lowerHero))
                     matchupValue += -5;
             }
 

@@ -16,6 +16,14 @@ builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
 builder.Services.AddApplicationServices();
 builder.Services.AddProviderServices();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigin",
+        policy => policy.WithOrigins("http://localhost:3001") // Replace with the actual origin of your frontend app
+                        .AllowAnyHeader()
+                        .AllowAnyMethod());
+});
+
 // I think I need to work on getting the provider layer DI stuff run here? It might be breaking here.
 var app = builder.Build();
 
@@ -27,6 +35,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// Use CORS with the specified policy
+app.UseCors("AllowSpecificOrigin");
 
 app.UseAuthorization();
 
