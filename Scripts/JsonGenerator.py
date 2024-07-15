@@ -6,280 +6,280 @@ import json
 # List of Overwatch 2 heros
 hero_data = [
     {
-        "HeroName": "Ana",
-        "StrongAgainst": ["Bastion", "Ashe"],
+        "HeroName": "ana",
+        "StrongAgainst": ["bastion", "ashe"],
         "GoodAgainst": [],
         "WeakAgainst": [],
         "BadAgainst": []
     },
     {
-        "HeroName": "Ashe",
+        "HeroName": "ashe",
         "StrongAgainst": [],
         "GoodAgainst": [],
         "WeakAgainst": [],
-        "BadAgainst": ["Ana"]
+        "BadAgainst": ["ana"]
     },
     {
-        "HeroName": "Baptiste",
-        "StrongAgainst": [],
-        "GoodAgainst": [],
-        "WeakAgainst": [],
-        "BadAgainst": []
-    },
-    {
-        "HeroName": "Bastion",
-        "StrongAgainst": [],
-        "GoodAgainst": [],
-        "WeakAgainst": [],
-        "BadAgainst": ["Ana"]
-    },
-    {
-        "HeroName": "Brigitte",
+        "HeroName": "baptiste",
         "StrongAgainst": [],
         "GoodAgainst": [],
         "WeakAgainst": [],
         "BadAgainst": []
     },
     {
-        "HeroName": "Cassidy",
+        "HeroName": "bastion",
         "StrongAgainst": [],
-        "GoodAgainst": [],
-        "WeakAgainst": ["Ana"],
-        "BadAgainst": []
-    },
-    {
-        "HeroName": "D.va",
-        "StrongAgainst": [],
-        "GoodAgainst": ["Ana"],
-        "WeakAgainst": [],
-        "BadAgainst": []
-    },
-    {
-        "HeroName": "Doomfist",
-        "StrongAgainst": [],
-        "GoodAgainst": [],
-        "WeakAgainst": ["Ana"],
-        "BadAgainst": []
-    },
-    {
-        "HeroName": "Echo",
-        "StrongAgainst": ["Ana"],
         "GoodAgainst": [],
         "WeakAgainst": [],
-        "BadAgainst": []
+        "BadAgainst": ["ana"]
     },
     {
-        "HeroName": "Genji",
+        "HeroName": "brigitte",
         "StrongAgainst": [],
         "GoodAgainst": [],
         "WeakAgainst": [],
         "BadAgainst": []
     },
     {
-        "HeroName": "Hanzo",
+        "HeroName": "cassidy",
+        "StrongAgainst": [],
+        "GoodAgainst": [],
+        "WeakAgainst": ["ana"],
+        "BadAgainst": []
+    },
+    {
+        "HeroName": "d.va",
+        "StrongAgainst": [],
+        "GoodAgainst": ["ana"],
+        "WeakAgainst": [],
+        "BadAgainst": []
+    },
+    {
+        "HeroName": "doomfist",
+        "StrongAgainst": [],
+        "GoodAgainst": [],
+        "WeakAgainst": ["ana"],
+        "BadAgainst": []
+    },
+    {
+        "HeroName": "echo",
+        "StrongAgainst": ["ana"],
+        "GoodAgainst": [],
+        "WeakAgainst": [],
+        "BadAgainst": []
+    },
+    {
+        "HeroName": "genji",
         "StrongAgainst": [],
         "GoodAgainst": [],
         "WeakAgainst": [],
         "BadAgainst": []
     },
     {
-        "HeroName": "Illari",
+        "HeroName": "hanzo",
         "StrongAgainst": [],
         "GoodAgainst": [],
         "WeakAgainst": [],
         "BadAgainst": []
     },
     {
-        "HeroName": "Junker Queen",
+        "HeroName": "illari",
         "StrongAgainst": [],
         "GoodAgainst": [],
         "WeakAgainst": [],
         "BadAgainst": []
     },
     {
-        "HeroName": "Junkrat",
+        "HeroName": "junker queen",
         "StrongAgainst": [],
         "GoodAgainst": [],
         "WeakAgainst": [],
         "BadAgainst": []
     },
     {
-        "HeroName": "Kiriko",
+        "HeroName": "junkrat",
         "StrongAgainst": [],
         "GoodAgainst": [],
         "WeakAgainst": [],
         "BadAgainst": []
     },
     {
-        "HeroName": "Lifeweaver",
+        "HeroName": "kiriko",
         "StrongAgainst": [],
         "GoodAgainst": [],
         "WeakAgainst": [],
         "BadAgainst": []
     },
     {
-        "HeroName": "Lucio",
+        "HeroName": "lifeweaver",
         "StrongAgainst": [],
         "GoodAgainst": [],
         "WeakAgainst": [],
         "BadAgainst": []
     },
     {
-        "HeroName": "Mauga",
+        "HeroName": "lucio",
         "StrongAgainst": [],
         "GoodAgainst": [],
         "WeakAgainst": [],
-        "BadAgainst": ["Ana"]
+        "BadAgainst": []
     },
     {
-        "HeroName": "Mei",
+        "HeroName": "mauga",
+        "StrongAgainst": [],
+        "GoodAgainst": [],
+        "WeakAgainst": [],
+        "BadAgainst": ["ana"]
+    },
+    {
+        "HeroName": "mei",
         "StrongAgainst": [],
         "GoodAgainst": [],
         "WeakAgainst": [],
         "BadAgainst": []
     },
         {
-        "HeroName": "Mercy",
+        "HeroName": "mercy",
         "StrongAgainst": [],
         "GoodAgainst": [],
         "WeakAgainst": [],
         "BadAgainst": []
     },
     {
-        "HeroName": "Moira",
+        "HeroName": "moira",
         "StrongAgainst": [],
         "GoodAgainst": [],
         "WeakAgainst": [],
         "BadAgainst": []
     },
     {
-        "HeroName": "Orisa",
+        "HeroName": "orisa",
         "StrongAgainst": [],
         "GoodAgainst": [],
         "WeakAgainst": [],
-        "BadAgainst": ["Ana"]
+        "BadAgainst": ["ana"]
     },
     {
-        "HeroName": "Pharah",
+        "HeroName": "pharah",
         "StrongAgainst": [],
         "GoodAgainst": [],
-        "WeakAgainst": ["Ana"],
+        "WeakAgainst": ["ana"],
         "BadAgainst": []
     },
     {
-        "HeroName": "Ramattra",
-        "StrongAgainst": [],
-        "GoodAgainst": [],
-        "WeakAgainst": [],
-        "BadAgainst": []
-    },
-    {
-        "HeroName": "Reaper",
+        "HeroName": "ramattra",
         "StrongAgainst": [],
         "GoodAgainst": [],
         "WeakAgainst": [],
         "BadAgainst": []
     },
     {
-        "HeroName": "Reinhardt",
-        "StrongAgainst": [],
-        "GoodAgainst": [],
-        "WeakAgainst": ["Ana"],
-        "BadAgainst": []
-    },
-    {
-        "HeroName": "Roadhog",
-        "StrongAgainst": [],
-        "GoodAgainst": [],
-        "WeakAgainst": [],
-        "BadAgainst": ["Ana"]
-    },
-    {
-        "HeroName": "Sigma",
+        "HeroName": "reaper",
         "StrongAgainst": [],
         "GoodAgainst": [],
         "WeakAgainst": [],
         "BadAgainst": []
     },
     {
-        "HeroName": "Sojourn",
+        "HeroName": "reinhardt",
+        "StrongAgainst": [],
+        "GoodAgainst": [],
+        "WeakAgainst": ["ana"],
+        "BadAgainst": []
+    },
+    {
+        "HeroName": "roadhog",
+        "StrongAgainst": [],
+        "GoodAgainst": [],
+        "WeakAgainst": [],
+        "BadAgainst": ["ana"]
+    },
+    {
+        "HeroName": "sigma",
         "StrongAgainst": [],
         "GoodAgainst": [],
         "WeakAgainst": [],
         "BadAgainst": []
     },
     {
-        "HeroName": "Soldier: 76",
-        "StrongAgainst": [],
-        "GoodAgainst": ["Ana"],
-        "WeakAgainst": [],
-        "BadAgainst": []
-    },
-    {
-        "HeroName": "Sombra",
-        "StrongAgainst": ["Ana"],
-        "GoodAgainst": [],
-        "WeakAgainst": [],
-        "BadAgainst": []
-    },
-    {
-        "HeroName": "Symmetra",
+        "HeroName": "sojourn",
         "StrongAgainst": [],
         "GoodAgainst": [],
         "WeakAgainst": [],
         "BadAgainst": []
     },
     {
-        "HeroName": "Torbjorn",
+        "HeroName": "soldier: 76",
+        "StrongAgainst": [],
+        "GoodAgainst": ["ana"],
+        "WeakAgainst": [],
+        "BadAgainst": []
+    },
+    {
+        "HeroName": "sombra",
+        "StrongAgainst": ["ana"],
+        "GoodAgainst": [],
+        "WeakAgainst": [],
+        "BadAgainst": []
+    },
+    {
+        "HeroName": "symmetra",
         "StrongAgainst": [],
         "GoodAgainst": [],
         "WeakAgainst": [],
         "BadAgainst": []
     },
     {
-        "HeroName": "Tracer",
-        "StrongAgainst": ["Ana"],
-        "GoodAgainst": [],
-        "WeakAgainst": [],
-        "BadAgainst": []
-    },
-    {
-        "HeroName": "Venture",
+        "HeroName": "torbjorn",
         "StrongAgainst": [],
         "GoodAgainst": [],
         "WeakAgainst": [],
         "BadAgainst": []
     },
     {
-        "HeroName": "Widowmaker",
-        "StrongAgainst": [],
-        "GoodAgainst": ["Ana"],
+        "HeroName": "tracer",
+        "StrongAgainst": ["ana"],
+        "GoodAgainst": [],
         "WeakAgainst": [],
         "BadAgainst": []
     },
     {
-        "HeroName": "Winston",
+        "HeroName": "venture",
         "StrongAgainst": [],
         "GoodAgainst": [],
         "WeakAgainst": [],
         "BadAgainst": []
     },
     {
-        "HeroName": "Wrecking Ball",
+        "HeroName": "widowmaker",
         "StrongAgainst": [],
-        "GoodAgainst": [],
+        "GoodAgainst": ["ana"],
         "WeakAgainst": [],
-        "BadAgainst": ["Ana"]
-    },
-    {
-        "HeroName": "Zarya",
-        "StrongAgainst": [],
-        "GoodAgainst": [],
-        "WeakAgainst": ["Ana"],
         "BadAgainst": []
     },
     {
-        "HeroName": "Zenyatta",
+        "HeroName": "winston",
+        "StrongAgainst": [],
+        "GoodAgainst": [],
+        "WeakAgainst": [],
+        "BadAgainst": []
+    },
+    {
+        "HeroName": "wrecking ball",
+        "StrongAgainst": [],
+        "GoodAgainst": [],
+        "WeakAgainst": [],
+        "BadAgainst": ["ana"]
+    },
+    {
+        "HeroName": "zarya",
+        "StrongAgainst": [],
+        "GoodAgainst": [],
+        "WeakAgainst": ["ana"],
+        "BadAgainst": []
+    },
+    {
+        "HeroName": "zenyatta",
         "StrongAgainst": [],
         "GoodAgainst": [],
         "WeakAgainst": [],
@@ -294,4 +294,4 @@ json_data = json.dumps(hero_data, indent=4)
 with open('overwatch_heroes.json', 'w') as file:
     file.write(json_data)
 
-print("JSON dataset created successfully.")
+print("jSON dataset created successfully.")

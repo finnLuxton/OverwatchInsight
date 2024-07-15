@@ -5,7 +5,7 @@
             "bastion",
             "ashe"
         ],
-        "GoodAgainst": [],
+        "GoodAgainst": ["mauga"],
         "WeakAgainst": [],
         "BadAgainst": []
     },
