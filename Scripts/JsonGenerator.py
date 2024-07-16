@@ -1,7 +1,9 @@
 import json
 
+## Please note that these rankings have 0 grounding apart from 5 seconds of thought each.
+
 ## Finished heroes in rankings
-# Ana, 
+# "ana", "ashe", "baptiste", "bastion", "brigitte"
 
 # List of Overwatch 2 heros
 hero_data = [
@@ -28,7 +30,7 @@ hero_data = [
     },
     {
         "HeroName": "bastion",
-        "StrongAgainst": [],
+        "StrongAgainst": ["brigitte"],
         "GoodAgainst": [],
         "WeakAgainst": [],
         "BadAgainst": ["ana"]
@@ -37,43 +39,43 @@ hero_data = [
         "HeroName": "brigitte",
         "StrongAgainst": [],
         "GoodAgainst": [],
-        "WeakAgainst": [],
-        "BadAgainst": []
+        "WeakAgainst": ["ashe"],
+        "BadAgainst": ["bastion"]
     },
     {
         "HeroName": "cassidy",
         "StrongAgainst": [],
         "GoodAgainst": [],
-        "WeakAgainst": ["ana"],
+        "WeakAgainst": ["ana", "baptiste"],
         "BadAgainst": []
     },
     {
         "HeroName": "d.va",
-        "StrongAgainst": [],
-        "GoodAgainst": ["ana"],
-        "WeakAgainst": [],
+        "StrongAgainst": ["bastion"],
+        "GoodAgainst": ["ana", "ashe"],
+        "WeakAgainst": ["brigitte"],
         "BadAgainst": []
     },
     {
         "HeroName": "doomfist",
-        "StrongAgainst": [],
+        "StrongAgainst": ["baptiste"],
         "GoodAgainst": [],
-        "WeakAgainst": ["ana"],
+        "WeakAgainst": ["ana", "bastion", "brigitte"],
         "BadAgainst": []
     },
     {
         "HeroName": "echo",
-        "StrongAgainst": ["ana"],
+        "StrongAgainst": ["ana", "brigitte"],
         "GoodAgainst": [],
-        "WeakAgainst": [],
+        "WeakAgainst": ["bastion"],
         "BadAgainst": []
     },
     {
         "HeroName": "genji",
-        "StrongAgainst": [],
-        "GoodAgainst": [],
-        "WeakAgainst": [],
-        "BadAgainst": []
+        "StrongAgainst": ["bastion"],
+        "GoodAgainst": ["baptiste"],
+        "WeakAgainst": ["ashe"],
+        "BadAgainst": ["brigitte"]
     },
     {
         "HeroName": "hanzo",
@@ -85,7 +87,7 @@ hero_data = [
     {
         "HeroName": "illari",
         "StrongAgainst": [],
-        "GoodAgainst": [],
+        "GoodAgainst": ["bastion"],
         "WeakAgainst": [],
         "BadAgainst": []
     },
@@ -99,21 +101,21 @@ hero_data = [
     {
         "HeroName": "junkrat",
         "StrongAgainst": [],
-        "GoodAgainst": [],
+        "GoodAgainst": ["brigitte"],
         "WeakAgainst": [],
-        "BadAgainst": []
+        "BadAgainst": ["baptiste"]
     },
     {
         "HeroName": "kiriko",
         "StrongAgainst": [],
-        "GoodAgainst": [],
+        "GoodAgainst": ["ashe"],
         "WeakAgainst": [],
         "BadAgainst": []
     },
     {
         "HeroName": "lifeweaver",
         "StrongAgainst": [],
-        "GoodAgainst": [],
+        "GoodAgainst": ["ashe"],
         "WeakAgainst": [],
         "BadAgainst": []
     },
@@ -129,26 +131,26 @@ hero_data = [
         "StrongAgainst": [],
         "GoodAgainst": [],
         "WeakAgainst": [],
-        "BadAgainst": ["ana"]
+        "BadAgainst": ["ana", "baptiste", "bastion"]
     },
     {
         "HeroName": "mei",
         "StrongAgainst": [],
-        "GoodAgainst": [],
+        "GoodAgainst": ["bastion"],
         "WeakAgainst": [],
         "BadAgainst": []
     },
         {
         "HeroName": "mercy",
-        "StrongAgainst": [],
+        "StrongAgainst": ["brigitte"],
         "GoodAgainst": [],
-        "WeakAgainst": [],
+        "WeakAgainst": ["baptiste", "bastion"],
         "BadAgainst": []
     },
     {
         "HeroName": "moira",
         "StrongAgainst": [],
-        "GoodAgainst": [],
+        "GoodAgainst": ["bastion"],
         "WeakAgainst": [],
         "BadAgainst": []
     },
@@ -156,27 +158,27 @@ hero_data = [
         "HeroName": "orisa",
         "StrongAgainst": [],
         "GoodAgainst": [],
-        "WeakAgainst": [],
+        "WeakAgainst": ["baptiste", "bastion"],
         "BadAgainst": ["ana"]
     },
     {
         "HeroName": "pharah",
-        "StrongAgainst": [],
+        "StrongAgainst": ["brigitte"],
         "GoodAgainst": [],
-        "WeakAgainst": ["ana"],
-        "BadAgainst": []
+        "WeakAgainst": ["ana", "bastion"],
+        "BadAgainst": ["ashe", "baptiste"]
     },
     {
         "HeroName": "ramattra",
         "StrongAgainst": [],
         "GoodAgainst": [],
-        "WeakAgainst": [],
+        "WeakAgainst": ["bastion"],
         "BadAgainst": []
     },
     {
         "HeroName": "reaper",
         "StrongAgainst": [],
-        "GoodAgainst": [],
+        "GoodAgainst": ["brigitte"],
         "WeakAgainst": [],
         "BadAgainst": []
     },
@@ -185,21 +187,21 @@ hero_data = [
         "StrongAgainst": [],
         "GoodAgainst": [],
         "WeakAgainst": ["ana"],
-        "BadAgainst": []
+        "BadAgainst": ["bastion"]
     },
     {
         "HeroName": "roadhog",
         "StrongAgainst": [],
         "GoodAgainst": [],
-        "WeakAgainst": [],
-        "BadAgainst": ["ana"]
+        "WeakAgainst": ["ashe"],
+        "BadAgainst": ["ana", "bastion"]
     },
     {
         "HeroName": "sigma",
         "StrongAgainst": [],
         "GoodAgainst": [],
-        "WeakAgainst": [],
-        "BadAgainst": []
+        "WeakAgainst": ["brigitte"],
+        "BadAgainst": ["bastion"]
     },
     {
         "HeroName": "sojourn",
@@ -217,63 +219,63 @@ hero_data = [
     },
     {
         "HeroName": "sombra",
-        "StrongAgainst": ["ana"],
-        "GoodAgainst": [],
+        "StrongAgainst": ["ana", "ashe", "bastion"],
+        "GoodAgainst": ["brigitte"],
         "WeakAgainst": [],
         "BadAgainst": []
     },
     {
         "HeroName": "symmetra",
         "StrongAgainst": [],
-        "GoodAgainst": [],
+        "GoodAgainst": ["bastion"],
         "WeakAgainst": [],
         "BadAgainst": []
     },
     {
         "HeroName": "torbjorn",
-        "StrongAgainst": [],
+        "StrongAgainst": ["brigitte"],
         "GoodAgainst": [],
-        "WeakAgainst": [],
+        "WeakAgainst": ["baptiste"],
         "BadAgainst": []
     },
     {
         "HeroName": "tracer",
-        "StrongAgainst": ["ana"],
-        "GoodAgainst": [],
+        "StrongAgainst": ["ana", "ashe"],
+        "GoodAgainst": ["bastion"],
         "WeakAgainst": [],
-        "BadAgainst": []
+        "BadAgainst": ["brigitte"]
     },
     {
         "HeroName": "venture",
         "StrongAgainst": [],
         "GoodAgainst": [],
-        "WeakAgainst": [],
+        "WeakAgainst": ["brigitte"],
         "BadAgainst": []
     },
     {
         "HeroName": "widowmaker",
-        "StrongAgainst": [],
+        "StrongAgainst": ["bastion", "brigitte"],
         "GoodAgainst": ["ana"],
         "WeakAgainst": [],
-        "BadAgainst": []
+        "BadAgainst": ["baptiste"]
     },
     {
         "HeroName": "winston",
         "StrongAgainst": [],
-        "GoodAgainst": [],
+        "GoodAgainst": ["brigitte"],
         "WeakAgainst": [],
-        "BadAgainst": []
+        "BadAgainst": ["bastion"]
     },
     {
         "HeroName": "wrecking ball",
         "StrongAgainst": [],
         "GoodAgainst": [],
-        "WeakAgainst": [],
+        "WeakAgainst": ["brigitte"],
         "BadAgainst": ["ana"]
     },
     {
         "HeroName": "zarya",
-        "StrongAgainst": [],
+        "StrongAgainst": ["ashe"],
         "GoodAgainst": [],
         "WeakAgainst": ["ana"],
         "BadAgainst": []
@@ -283,7 +285,7 @@ hero_data = [
         "StrongAgainst": [],
         "GoodAgainst": [],
         "WeakAgainst": [],
-        "BadAgainst": []
+        "BadAgainst": ["ashe"]
     }
 ]
 
